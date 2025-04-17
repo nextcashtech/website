@@ -35,13 +35,34 @@ ul {
 /* Sections */
 section {
     padding: 40px;
-    text-align: center;
 }
-h1, h2 {
+h1, h2, h3, h4, h5 {
+    text-align: center;
     color: #bde;
 }
 p {
+    text-align: center;
     color: #bde;
+}
+a {
+    color: #9bf;
+}
+
+ul.quotes li {
+  border-top: 1px solid #041;
+}
+ul.quotes li h3 {
+    margin-bottom: 2px;
+    text-align: left;
+    color: #bde;
+}
+ul.quotes li h4 {
+    margin-top: 2px;
+    text-align: left;
+    color: #bde;
+}
+ul.quotes p {
+    text-align: left;
 }
 
 /* Button */
