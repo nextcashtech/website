@@ -48,6 +48,7 @@ a {
     color: #9bf;
 }
 
+/* Quotes */
 ul.quotes li {
   border-top: 1px solid #041;
 }
@@ -63,6 +64,18 @@ ul.quotes li h4 {
 }
 ul.quotes p {
     text-align: left;
+}
+
+a.self_link {
+    text-decoration: none;
+}
+
+.current {
+    background: #597;
+}
+
+.current_flash {
+    background: #ff9;
 }
 
 /* Button */
