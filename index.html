@@ -4,47 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NextCash</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav>
-        <ul>
-            <li><a href="#bitcoin">Bitcoin</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-
-    <h1>NextCash</h1>
-
-    <!-- Home Section -->
-    <section id="bitcoin">
-        <p></p>
-        <h2>Bitcoin</h2>
-        <p>Check out our learning resources about Bitcoin <a href="./bitcoin/index.html">here</a>.</p>
-    </section>
-
-    <!-- About Section -->
-    <section id="about">
-        <h2>About Us</h2>
-        <p>We provide software and services for the Bitcoin SV ecosystem.</p>
-        <p>Follow us on X: <a href="https://x.com/KarlTheProgrmr" target="_blank" class="btn">@KarlTheProgrmr</a></p>
-    </section>
-
-    <!-- Services Section -->
-    <section id="services">
-        <h2>Services</h2>
-        <ul>
-            <li>Messages service - Enables a client side wallet to receive messages from services and other wallets.</li>
-        </ul>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <p>Email: webmaster@nextcash.tech</p>
-    </section>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <!-- <img src="images/logo.png" alt="Your Bitcoin Wallet Logo"> -->
+                NextCash Technologies
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="wallet.html">Wallet</a></li>
+                <li><a href="bitcoin.html">Bitcoin</a></li>
+                <li><a href="https://x.com/CashNext" class="social-link" target="_blank"><span class="x-icon">X</span></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h1>NextCash Technologies</h1>
+            <p class="hero-text">
+We are developing a new Bitcoin SV wallet that uses micro-transaction supported distributed services. The goal is to prevent "walled gardens" and promote competition between service providers. This will hopefully promote a healthy ecosystem.
+            </p>
+            <a href="wallet.html" class="cta-button">Wallet</a>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 NextCash, LLC. All rights reserved.</p>
+    </footer>
 </body>
 </html>
